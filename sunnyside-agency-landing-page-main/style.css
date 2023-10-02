@@ -1,0 +1,193 @@
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  width: 1440px;
+  margin: 0 auto;
+}
+h1 {
+  font-size: 40px;
+  text-transform: uppercase;
+}
+h2 {
+  font-size: 20px;
+  text-transform: uppercase;
+}
+/*  */
+.navigation {
+  height: 100vh;
+  background: url(/sunnyside-agency-landing-page-main/images/desktop/image-header.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+}
+li {
+  list-style-type: none;
+}
+.nav-right {
+  display: flex;
+  justify-content: space-around;
+  justify-content: center;
+  text-align: center;
+  gap: 50px;
+  margin-right: 50px;
+  margin-top: 30px;
+  color: white;
+}
+.nav-btn {
+  padding: 10px;
+  color: black;
+  background: white;
+  border-radius: 10px;
+}
+.nav-text {
+  font-size: 30px;
+  color: white;
+  text-transform: uppercase;
+  font-weight: 300;
+  margin-top: 30px;
+  padding-left: 40px;
+}
+.nav-heading {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  padding-top: 200px;
+  color: white;
+  text-transform: uppercase;
+  font-weight: 300;
+}
+/* end of navigation and navbar */
+
+.section {
+  display: flex;
+  flex-direction: column;
+}
+.row-1 {
+  display: flex;
+  justify-content: space-evenly;
+}
+.transform-section {
+  justify-content: left;
+  text-align: left;
+  margin-top: 100px;
+  margin-left: 100px;
+}
+.transform-text {
+  color: grey;
+  text-align: left;
+  margin: 30px 0;
+}
+.stand {
+  justify-content: center;
+  text-align: left;
+  padding-top: 200px;
+  padding-left: 100px;
+}
+.stand-text {
+  color: hsl(213, 9%, 39%);
+  padding: 10px 0px 20px 0px;
+  font-size: 20px;
+}
+.cherry {
+  text-align: center;
+  padding-top: 350px;
+}
+.photo-text {
+  margin-top: 10px;
+}
+.graphic {
+  text-align: center;
+  padding-top: 350px;
+}
+.graphic-text {
+  margin-top: 10px;
+}
+/*  */
+
+.row-2 {
+  display: flex;
+}
+
+.row-3 {
+  display: flex;
+}
+
+.stand {
+  flex-basis: 50%;
+}
+.image-1 {
+  background-size: cover;
+}
+.image-2 {
+  background-size: cover;
+}
+.image-3 {
+  background: url(/sunnyside-agency-landing-page-main/images/desktop/image-graphic-design.jpg);
+  background-size: cover;
+  height: 600px;
+  flex-basis: 50%;
+}
+
+.image-4 {
+  background: url(/sunnyside-agency-landing-page-main/images/desktop/image-photography.jpg);
+  background-size: cover;
+  height: 600px;
+  flex-basis: 50%;
+}
+
+/* sec section css */
+.sec-section {
+  display: flex;
+}
+.sec-image {
+  width: 360px;
+}
+/* testimonials section */
+.testimonials {
+  display: flex;
+}
+.testimonials-header {
+  text-align: center;
+  padding: 50px 0px;
+}
+.testimonials-div {
+  gap: 20px;
+}
+/* footer css */
+.footer {
+  background: hsl(168, 34%, 41%);
+  background-size: cover;
+}
+.footer-top {
+  text-align: center;
+  padding-top: 40px;
+  font-size: 30px;
+}
+.footer-link {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  margin-top: 50px;
+  padding-bottom: 60px;
+  color: hsl(167, 40%, 24%);
+}
+.attribution {
+  padding-bottom: 50px;
+}
